@@ -1,3 +1,5 @@
+#docker build -t go_test -f ./Dockerfile .
+#docker run -d -p 9000:9000 go_test:latest
 FROM golang:alpine as build
 
 WORKDIR /opt/app
